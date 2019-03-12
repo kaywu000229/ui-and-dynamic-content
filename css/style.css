@@ -3,22 +3,26 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /*Mobile view*/
 /*background picture is derived from stock media: https://pixabay.com/illustrations/online-store-online-shop-store-1674907/*/
+/* -----------------color used------------------------------------
+button color: rgb(255,240,237)
+text background color: rgb(92,26,92)
+main title background color: rgb(255,240,237)
+main page back-up color:rgba(192,192,192,0.4)
+icon color: rgb(130,0,232,0.9)
+burger menu color: rgb(239,255,215) */
 
-nav {
-	background-color: blue;
-}
 .fa-bars{
 	font-size:1em;
 	background-color:rgb(239,255,215);
 	position: absolute;
-    left: 10px;
-    padding: 5px;
-    top:20px;
-    cursor: pointer;
+	left: 10px;
+	padding: 5px;
+	top:20px;
+        cursor: pointer;
 }
 
 i {
-	color:rgb(130,0,232,0.9);
+	color:rgba(130,0,232,0.9);
 }
 
 .page-logo{
@@ -29,21 +33,18 @@ i {
 	background-image: url("../img/bg.png");
 	border-radius: 9px;
 	background-size: 65%;
-
-	/*text-align: center;*/
 }
 
 .fa-cart-arrow-down{
-font-size: 1em;
-justify-content: center;
-margin-left: 28%;
+	font-size: 1em;
+	justify-content: center;
+	margin-left: 28%;
 }
 
 .wrapper{
 	max-width: 414px;
 	padding: 2%;
 	background-color: rgba(192,192,192,0.4);
-
 }
 
 .error{
@@ -55,7 +56,6 @@ margin-left: 28%;
 }
 
 .sfs{
-
 	font-size: 2em;
 	font-family: verdana,Tahoma, Geneva, sans-serif;
 	font-weight: bold;
@@ -76,7 +76,6 @@ margin-left: 28%;
 	color:rgb(92,26,92);
 	line-height: 1.5;
 }
-
 
 .text{
 	margin:8% 2%;
@@ -126,5 +125,3 @@ footer{
 	font-size: 0.5em;
 	text-align: center;
 }
-
-/*icons*/
